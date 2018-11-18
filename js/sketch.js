@@ -28,7 +28,7 @@ function setup() {
   var parentStyle = canvas.parentElement.style;
   parentStyle.textAlign = "center";
   parentStyle.width = "100%";
-  createCanvas(640, 550);
+  createCanvas(640, 510);
   video = createCapture(VIDEO);
   video.hide();
   background(0);
@@ -40,5 +40,5 @@ function draw() {
   image(video, 0, 0);
   fill(255);
   textSize(32);
-  text(label, 10, height - 20);
+  text(label, 10, height -4);
 }
