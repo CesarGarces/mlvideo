@@ -1,5 +1,5 @@
 // Webcam Image Classification with ml5
-// https://youtu.be/D9BoBSkLvFo
+
 
 let mobilenet;
 let video;
